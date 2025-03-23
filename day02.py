@@ -30,7 +30,7 @@ def is_safe(report: list[int]) -> tuple[bool, int | None]:
 
   return True, None
 
-report_list = import_txt_file('day2.txt')
+report_list = import_txt_file('inputs/day02.txt')
 
 # Part 1: Compute number of "safe" reports.
 # For each report, determine whether it is "safe".

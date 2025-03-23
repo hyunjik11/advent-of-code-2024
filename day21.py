@@ -9,8 +9,8 @@ def import_data(filename: str) -> list[str]:
       codes.append(line)
   return codes
 
-filename = 'day21.txt'
-# filename = 'day21_test.txt'
+filename = 'inputs/day21.txt'
+# filename = 'inputs/day21_test.txt'
 codes = import_data(filename)
 print(codes)
 

@@ -16,8 +16,8 @@ def import_data(filename: str):
         program = extract_ints(line)
   return register_init, program
 
-filename = 'day17.txt'
-# filename = 'day17_test.txt'
+filename = 'inputs/day17.txt'
+# filename = 'inputs/day17_test.txt'
 
 register_init, program = import_data(filename)
 # print(register_init, program)

@@ -8,8 +8,8 @@ def import_txt_file(filename: str) -> list[tuple[int, int]]:
       coords_list.append(coords)
     return coords_list
 
-filename = 'day18.txt'
-# filename = 'day18_test.txt'
+filename = 'inputs/day18.txt'
+# filename = 'inputs/day18_test.txt'
 
 coords_list = import_txt_file(filename)
 # print(coords_list)

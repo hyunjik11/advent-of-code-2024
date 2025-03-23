@@ -6,8 +6,8 @@ def import_data(filename: str) -> list[tuple[str, str]]:
       edges.append(line)
   return edges
 
-filename = 'day23.txt'
-# filename = 'day23_test.txt'
+filename = 'inputs/day23.txt'
+# filename = 'inputs/day23_test.txt'
 edges = import_data(filename)
 # print(edges)
 

@@ -20,8 +20,8 @@ def import_data(
       pos_vel.append(pv)
   return pos_vel
 
-filename = 'day14.txt'
-# filename = 'day14_test.txt'
+filename = 'inputs/day14.txt'
+# filename = 'inputs/day14_test.txt'
 if 'test' in filename:
   num_x = 11
   num_y = 7
@@ -81,7 +81,7 @@ print('Part 1:', sf)
 # 2. Then set times = [65 + i*103 for i in range(100)] and scroll
 # (with minimap in VScode) to see when the tree is visible.
 times = [65 + i*103 for i in range(100)]
-out_file = 'day14_part2_out.txt'
+out_file = 'outputs/day14_part2_out.txt'
 with open(out_file, 'w') as f:
   for time in times:
     f.write(f'{time=}:' + '\n')

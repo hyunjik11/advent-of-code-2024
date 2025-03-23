@@ -46,9 +46,9 @@ def opposite(dir: str):
   elif dir == 'd':
     return 'u'
 
-filename = 'day16.txt'
-# filename = 'day16_test.txt'
-# filename = 'day16_test2.txt'
+filename = 'inputs/day16.txt'
+# filename = 'inputs/day16_test.txt'
+# filename = 'inputs/day16_test2.txt'
 map_arr = import_data(filename)
 print_map(map_arr)
 

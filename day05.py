@@ -29,8 +29,8 @@ def import_data(
         raise ValueError(f'Invalid section: {section}')
   return rules, updates, all_values
 
-filename = 'day5.txt'
-# filename = 'day5_test.txt'
+filename = 'inputs/day05.txt'
+# filename = 'inputs/day05_test.txt'
 rules, updates, all_values = import_data(filename)
 # print(all_values)
 # print(rules)

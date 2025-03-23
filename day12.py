@@ -4,8 +4,8 @@ def import_txt_file_as_array(filename: str) -> list[list[str]]:
   with open(filename, 'r') as file:
     return [list(line.strip()) for line in file]
 
-filename = 'day12.txt'
-# filename = 'day12_test.txt'
+filename = 'inputs/day12.txt'
+# filename = 'inputs/day12_test.txt'
 map_arr = import_txt_file_as_array(filename)
 nrow = len(map_arr)
 ncol = len(map_arr[0])

@@ -12,7 +12,7 @@ def import_txt_file(filename: str) -> tuple[list[int], list[int]]:
 
 # Part 1: Compute total distance between sorted elements of two lists.
 # Read numbers in file into lists.
-list1, list2 = import_txt_file('day1.txt')
+list1, list2 = import_txt_file('inputs/day01.txt')
 # Test with sample data:
 # list1 = [3, 4, 2, 1, 3, 3]
 # list2 = [4, 3, 5, 3, 9, 3]

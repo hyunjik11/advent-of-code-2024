@@ -24,8 +24,8 @@ def find_target_pos(map_arr: list[list[str]], target: str) -> tuple[int, int]:
       if val == target:
         return (i, j)
 
-filename = 'day20.txt'
-# filename = 'day20_test.txt'
+filename = 'inputs/day20.txt'
+# filename = 'inputs/day20_test.txt'
 map_arr = import_data(filename)
 # print_map(map_arr)
 

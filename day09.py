@@ -3,8 +3,8 @@ def import_txt_file(file_path: str) -> list[int]:
     for line in file:
       return list(map(int, line.strip()))
 
-filename = 'day9.txt'
-# filename = 'day9_test.txt'
+filename = 'inputs/day09.txt'
+# filename = 'inputs/day09_test.txt'
 int_list = import_txt_file(filename)
 # print(int_list)
 

@@ -18,8 +18,8 @@ def import_data(filename: str) -> tuple[tuple[str, ...], list[str]]:
         raise ValueError(f'Invlid {part=}')
     return tuple(patterns), designs
 
-filename = 'day19.txt'
-# filename = 'day19_test.txt'
+filename = 'inputs/day19.txt'
+# filename = 'inputs/day19_test.txt'
 patterns, designs = import_data(filename)
 # print(patterns)
 # print(designs)

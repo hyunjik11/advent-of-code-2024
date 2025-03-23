@@ -22,8 +22,8 @@ def import_data(
         raise ValueError(f'Invlid {part=}')
     return init, gates
 
-filename = 'day24.txt'
-# filename = 'day24_test.txt'
+filename = 'inputs/day24.txt'
+# filename = 'inputs/day24_test.txt'
 init, gates = import_data(filename)
 # print(init)
 # print(gates)
@@ -109,7 +109,7 @@ for k, v in reversed(sorted(g.values.items())):
 print('Part 1:', int(binary_string, 2))
 
 # Part 2: Find the 4 pairs of outputs that need to be swapped.
-filename = 'day24.txt'
+filename = 'inputs/day24.txt'
 init, gates = import_data(filename)
 # Note that we have x00-x44,y00-y44,z00-z45.
 # The addition logic is regular for each binary digit, e.g.

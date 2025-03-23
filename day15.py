@@ -54,9 +54,9 @@ def print_map(map_arr: list[list[str]]):
   print(str_to_print)
   
 
-filename = 'day15.txt'
-# filename = 'day15_test.txt'
-# filename = 'day15_test2.txt'
+filename = 'inputs/day15.txt'
+# filename = 'inputs/day15_test.txt'
+# filename = 'inputs/day15_test2.txt'
 map_arr, moves = import_data(filename)
 # print_map(map_arr)
 # print(moves)

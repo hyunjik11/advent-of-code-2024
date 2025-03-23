@@ -13,8 +13,8 @@ def import_data(filename: str) -> list[int]:
 PRUNE_NO = 2**24
 assert PRUNE_NO == 16777216
 
-filename = 'day22.txt'
-# filename = 'day22_test.txt'
+filename = 'inputs/day22.txt'
+# filename = 'inputs/day22_test.txt'
 numbers = import_data(filename)
 # numbers = [123]
 # print(numbers)

@@ -17,8 +17,8 @@ def list_to_str(list_of_chars):
   # Convert list of characters to string
   return ''.join(list_of_chars)
 
-filename = 'day4.txt'
-# filename = 'day4_test.txt'
+filename = 'inputs/day04.txt'
+# filename = 'inputs/day04_test.txt'
 letters = import_txt_file_as_array(filename)
 nrow = len(letters)
 ncol = len(letters[0])  # Assumes that all rows have same num cols

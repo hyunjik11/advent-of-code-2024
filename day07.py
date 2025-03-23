@@ -11,8 +11,8 @@ def import_txt_file(filename: str) -> list[dict[int, list[int]]]:
       result.append({key: values})
   return result
 
-filename = 'day7.txt'
-# filename = 'day7_test.txt'
+filename = 'inputs/day07.txt'
+# filename = 'inputs/day07_test.txt'
 # data[i] is a dict of the form {key: [v1, v2, ...]} representing
 # a single line of the text file.
 data = import_txt_file(filename)

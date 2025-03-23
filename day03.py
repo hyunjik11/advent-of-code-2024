@@ -16,7 +16,7 @@ def compute_sum_product(content: str) -> int:
   return sum(products)
 
 # Read txt file as a single string
-with open('day3.txt', 'r') as f:
+with open('inputs/day03.txt', 'r') as f:
   content = f.read()
 # Remove newline strings
 content = content.replace('\n', '')

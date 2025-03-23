@@ -29,8 +29,8 @@ def import_data(filename: str) -> list[tuple[list[list[int]], list[int]]]:
         claws.append(([[a, b], [c, d]], [e, f]))
   return claws
 
-filename = 'day13.txt'
-# filename = 'day13_test.txt'
+filename = 'inputs/day13.txt'
+# filename = 'inputs/day13_test.txt'
 claws = import_data(filename)
 # print(claws)
 

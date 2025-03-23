@@ -33,8 +33,8 @@ def reachable_neighbors(
   valid = list(filter(cond, candidates))
   return valid
 
-filename = 'day10.txt'
-# filename = 'day10_test.txt'
+filename = 'inputs/day10.txt'
+# filename = 'inputs/day10_test.txt'
 map_arr = import_txt_file(filename)
 # print(map_arr)
 

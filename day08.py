@@ -10,8 +10,8 @@ def is_valid_pos(pos: tuple[int, int], nrow: int, ncol: int) -> bool:
   # Check whether pos is a valid position in the map.
   return 0 <= pos[0] < nrow and 0 <= pos[1] < ncol
 
-filename = 'day8.txt'
-# filename = 'day8_test.txt'
+filename = 'inputs/day08.txt'
+# filename = 'inputs/day08_test.txt'
 map_arr = import_txt_file_as_array(filename)
 nrow = len(map_arr)
 ncol = len(map_arr[0])

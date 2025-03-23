@@ -41,8 +41,8 @@ def import_data(filename: str) -> tuple[list[list[int]], list[list[int]]]:
         continue
   return out_dict['lock'], out_dict['key']
 
-filename = 'day25.txt'
-# filename = 'day25_test.txt'
+filename = 'inputs/day25.txt'
+# filename = 'inputs/day25_test.txt'
 locks, keys = import_data(filename)
 # print(locks)
 # print(keys)

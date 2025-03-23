@@ -6,8 +6,8 @@ def import_txt_file(filename: str) -> list[int]:
     for line in file:
       return [int(x) for x in line.strip().split()]
 
-filename = 'day11.txt'
-# filename = 'day11_test.txt'
+filename = 'inputs/day11.txt'
+# filename = 'inputs/day11_test.txt'
 stones = import_txt_file(filename)
 print(stones)
 
